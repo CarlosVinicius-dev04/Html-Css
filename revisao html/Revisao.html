@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
+    <title>Revisao</title>
+    
+</head>
+<body>
+    <h1>Revisao</h1>
+
+    <h2>Hierarquia de Tiulos</h2> <!--Utilizando todos os titulos.-->
+
+    <h3>texto aleatorio</h3> <!--utilizando as tags hr e br.-->
+
+    <hr>   
+    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias libero a unde ut at nesciunt corporis. <br> Expedita facere assumenda cumque repudiandae odit dicta explicabo incidunt nobis perspiciatis quis. Quam, aperiam.</p>
+
+    <h3>Titulo</h3>
+    <h4>subtitulo</h4>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Libero eos pariatur laborum recusandae voluptatibus totam dolorem quo temporibus at nulla qui vero dolorum asperiores, molestiae aliquam nesciunt excepturi earum ea?</p>
+
+    <!--utilizando a formatacao de textos.-->
+    <h2>Formatting de text</h2> 
+
+    <h3>Galáxia</h3> 
+
+    <!--utilizando as tags strong, em, del ,ins.-->
+    <p><strong>Galáxia</strong> é uma grande estrutura formada por vários <em>corpos celestes</em>. A sua evolução <del>e transformação</del> foi <ins>descoberta</ins> pela ciência ao longo do processo de modernização dos estudos astronômicos. Porém, ainda há um conjunto de hipóteses relacionadas às galáxias que não foram comprovadas cientificamente.</p>
+
+    <!--Utilizando a tag 'mark' e adicinado o 'style' para dar cor, tambem foi utilizado a tag 'small'.-->
+    <p>As galáxias são classificadas conforme o seu formato. A <strong>principal e mais conhecida galáxia é a Via Láctea</strong>, justamente onde está localizado o <mark style="background-color: rgb(0, 255, 42);">Sistema Solar</mark> e o planeta Terra. A formação das galáxias está atrelada ao processo de <small>origem</small> do Universo. Essas estruturas evoluem por meio da ação de diversos fenômenos astronômicos.</p>
+
+    <h3>Equacao do segundo grau</h3> <!-- fazendo uso das tags 'span' para dar cor a palavra e a tag 'ins' para focar na palavra. Tambem foi utilizado as tags 'em' para deixar o texto em italico, e a tag 'sup' para deixar o x elevado a dois, a funcao desta tag e deixar o numero superior-->
+
+    <p>é caracterizada por um <span style="color: blue;"><ins>polinômio</ins></span> de grau 2, ou seja, um polinômio do tipo <em>ax<sup>2</sup>+bx+c</em>, em que a, b e c são <span style="color: blue;"><ins>números reais</ins></span>. Ao resolvermos uma equação de grau 2, estamos interessados em encontrar valores para a incógnita x que torne o valor da expressão igual a 0, que são chamadas de raízes, isto é, <em>ax<sup>2</sup> + bx +c = 0</em>.</p>
+
+    <h3>A água</h3>
+
+    <!--Foi utilizado a tag sub para deixa o numero inferior. -->
+    <p>A água (H<sub>2</sub>O) é um líquido formado por dois átomos de hidrogênio e um de oxigênio. Quando na atmosfera, pode reagir com determinados gases – como dióxido de enxofre (SO<sub>2</sub>), óxidos de nitrogênio (NO, NO<sub>2</sub>, N<sub>2</sub>O<sub>5</sub>) e dióxido de carbono (CO<sub>2</sub>) – ocasionando chuvas ácidas.</p>
+
+    <!--Utilizei as tags 'pre' e 'code' para da a formatacao correta do codigo.-->
+    <h3>Codigos em C</h3> 
+
+    <p>
+        <pre>
+            <code>
+                int main()
+                {
+                    // Fatorial de 5
+                    int fatorial = 5;
+                    int resposta = 1;
+                    /* nao temos condicao inicial, condicao esta dizendo que 5 >= 1,
+                    o incremento vai sempre reduzir um, de acordo com a condicao.
+                    */
+                    for( ; fatorial >= 1; --fatorial) {
+                        // mesma coisa que (resposta = resposta * fatorial;)
+                        resposta *= fatorial;
+                    }
+                        printf("o numero fatorial e %i", resposta);
+            
+                    return 0;
+                }
+            </code>
+        </pre>
+    </p>
+
+    <h2>Teoria da relatividade</h2>
+    <!--Utilizei a tag 'blockquote' pzra fazer citacao em bloco. A tag 'q' tambem faz citacoes, mas sao pequenas deixa a palavra com aspas.-->
+
+    <p>Segundo Albert Einstein</p>
+    <blockquote cite="https://brasilescola.uol.com.br/fisica/teorias-da-relatividade.htm">
+        A velocidade da luz no vácuo tem o mesmo valor em todas as direções e em todos os referenciais inerciais.
+    </blockquote>
+
+    <p>
+        <q>Duas coisas são infinitas: o universo e a estupidez humana. Mas, em relação ao universo, ainda não tenho certeza absoluta.</q>
+    </p>
+
+    
+
+   
+</body>
+</html>

@@ -1,0 +1,35 @@
+.quadro{
+    position: relative;
+    width: 850px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-vermelho{
+    background-color: red;
+    position: static;
+    
+
+}
+
+.quadrado-azul{
+    background-color: blue;
+    
+    
+}
+
+.quadrado-verde{
+    background-color: green;
+    position: relative;
+    
+}
+
+.quadrado-laranja{
+    background-color: orangered;
+
+}

@@ -1,0 +1,22 @@
+body{
+    text-align: justify;
+    font-family: "Brush Script MT", cursive;
+    font-size: 1.20rem;
+    color: black;
+}
+
+.cabecalho{
+    text-shadow: 3px 3px 15px slateblue;
+}
+
+
+.imagem1{
+    width: 45vw;
+    
+}
+
+.introducao{
+    text-transform: none;
+
+}
+

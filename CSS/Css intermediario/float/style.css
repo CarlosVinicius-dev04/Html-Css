@@ -1,0 +1,14 @@
+div > img{
+   width: 200px;
+   float: left;
+   margin-right: 10px;
+   
+}
+
+div{
+    border: 1px solid black;
+    
+    /* Esse over flow é utilizado para fazer a correção da imagem com a DIV. */
+    overflow: auto;
+}
+

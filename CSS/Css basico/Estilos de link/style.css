@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+    background-color: purple;
+    margin: 20px;
+    padding: 5px;
+    color: white;
+    border-radius: 8px;
+    font-family: monospace;
+
+}
+
+a:visited{
+    background-color: blueviolet;
+}
+
+a:hover{
+    padding: 7px;
+    color: white;
+    background-color: pink;
+}
+
+a:active{
+    padding: 3px;
+    color: red;
+    background-color: black;
+
+}

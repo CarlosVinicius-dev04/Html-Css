@@ -1,0 +1,20 @@
+/* Falando sobre os elementos das cores */
+
+#paragrafo1{
+    /* Voce pode definir atraves do nome da cor */
+    color: blue;
+    /* Voce pode definir pelo elemneto RGB */
+    background-color: rgb(251, 255, 0);
+}
+
+.paragrafo2{
+    /* Tem o elemento que ler pelo hexadecimal que possui 6 elementos no codigo da cor, mas nele voce sempre ira utiliza o '#' no inicio */
+    color: #8a2be2;
+    /* Temos o RGBA que tem a transparencia que e definido pelo alpha */
+    background-color: rgba(75, 252, 90, 0.521);
+}
+
+.lista1{
+    /* Temos tambem o hexadecimal com alpha, nele vai conter 8 elementos no codigo da cor, sendo os dois ultimos o alpha.*/
+    background-color: #8a2be2a1;
+}

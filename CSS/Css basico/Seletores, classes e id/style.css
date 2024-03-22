@@ -1,0 +1,22 @@
+
+/* O CSS vai funcionar o que for mais especifico. */
+
+/* No CSS o id sera mais especifico que uma class, e a class sera
+mais especifico que uma tag. */
+p{
+    color: green; 
+    background-color: yellow;
+}
+/* Para estililizar um ID voce utiliza um '#' */
+#paragrafo1{
+    color: red;
+    background-color: transparent;
+}
+/* Para estilizar uma classe voce utiliza '.' */
+.fundo-azul{
+    background-color: blue;
+}
+
+.texto-amarelo{
+    color: yellow;
+}

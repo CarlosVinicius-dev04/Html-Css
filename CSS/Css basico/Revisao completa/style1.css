@@ -1,0 +1,82 @@
+
+/* Color e BAckground-color */
+.rev1{
+    width: 600px;
+    background-color: aqua;
+    color: red;
+    margin-bottom: 150px;
+}
+
+/* Backgrounds */
+.rev2{
+    
+    width: 600px;
+    
+    height: 600px;
+
+    /* Vai dar cor de fundo para teto e as DIVs. */
+     background-color: black; 
+
+    /* Vai adicionar uma imagem de fundo(div ou texto) */
+    /* background-image: url(image/galaxia-do-triangulo.webp); */
+
+    /* Vai da a posicao da imagem normal ou de fundo */
+    background-position: center;
+
+    /* utiliza quando a imagem de fundo e menor que pagina,
+    pois ela pode se repetir varias vezes, dependendo do tamanho. */
+    background-repeat: none ;
+
+    /* vai definir o tamanhon da imagem de fundo */
+    background-size: none ;
+
+    /*  determina se aquela posição da imagem é fixa com o viewport,
+     ou se irá rolar juntamente com o seu bloco. */
+
+    margin-bottom: 200px;
+    
+}
+
+.rev2 p{
+    background-image: url(image/galaxia-do-triangulo.webp);
+    background-attachment: fixed;
+}
+
+/* Background-gradient */
+
+.rev3{
+    height: 100px;
+    /* colocamos 'background' apos isso colocamos o valor 'linear-gradient' com as cores */
+    background: linear-gradient(red,blue,green);
+    margin-bottom: 50px;
+
+}
+
+.b2{
+    height: 100px;
+    /* voce um utiliza os 'to' para definir como o gradient vai ser:
+        to right, to left, to top, to bottom */
+    background: linear-gradient(to right,orange,gray,purple);
+    margin-bottom: 50px;
+}
+
+.b3{
+    height: 200px;
+    /* podemos tambem contolar de onde o gradient vai comercar, e tambem
+        podemos colocar mais porcentagem de cada cor de forma individual. */
+    background: linear-gradient(to left,black 20%,red,gray);
+    margin-bottom: 50px;
+
+}
+
+.b4{
+    height: 150px;
+    /* Utilizamos tambem o 'deg' para definir qual grau vai ser
+         a posicao do meu gradient. */
+    background: linear-gradient(90deg,pink,black,purple);
+}
+
+
+
+
+

@@ -1,0 +1,23 @@
+.card{
+    background-color: #eee;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+
+ol{
+    margin-top: 50px;
+    padding-left: 0;
+    list-style: upper-latin;
+    cursor: grab;
+    
+}
+
+li{
+    margin: 18px;
+    padding: 10px;
+    background-color: #cceafc;
+    border: 2px solid #5ca8ef;
+    cursor: grabbing;
+    
+}

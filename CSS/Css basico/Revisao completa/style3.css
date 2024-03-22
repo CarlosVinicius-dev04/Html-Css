@@ -1,0 +1,118 @@
+.bo1{
+    /* Primeiro definimos a altura */
+    width: 400px;
+    height: 400px;
+    background-color: red;
+     
+    /* Borders */
+
+    /* borda de cima */
+    border-top: 2px ;
+
+    /* borda inferior */
+    border-bottom: 2px ;
+
+    /* Borda da esquerda */
+    border-left: 2px ;
+
+    /* Borda da direita */
+    border-right: 2px ;
+
+    /* Espessura da borda */
+    border-width: 6px ;
+
+    /* Estilo de borda */
+    border-style: solid ;
+
+    /* Cor da borda */
+    border-color: black;
+
+    /* Arredonda os cantos da borda externa de um elemento */
+    border-radius: 20% ;
+
+    /* Temos o segundo metodo que e difinir as bordas com o valor 'BORDER'
+        
+        border: 5px 5px solid
+    
+        Nesse metodo podemos so colocar o valor das bordas de cima, baixo, esquerda, direita e o tipo de borda.     */
+}
+
+
+    /* Margin e Padding */
+
+.mp1{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    font-size: 25px;
+    text-align: center;
+    border: 10px solid;
+
+        /* Margens */
+
+    /* Margem de cima */
+    margin-top: 40px;
+
+    /* Margem inferior */
+    margin-bottom: 20px ;
+
+    /* Margem esquerda */
+    margin-left: 20px ;
+
+    /* Margem direita */
+    margin-right: 20px ;
+
+
+    /* Temos o segundo metodo que voce usa so o valor 'MARGIN' e da os valores top, bottom, left e right.
+        
+        margin: ; */
+
+        
+        /* Padding */
+
+   
+    padding-top: 50px ;
+
+
+    padding-bottom: 20px ;
+
+
+    padding-left: 20px ;
+
+
+    padding-right: 20px ;
+
+
+        /* box sizing */
+
+    
+    /* Aqui vai ser o valor normal com padding e margin
+    box-sizing: content-box; */
+
+    /* Aqui vai ser o tamanho original da div, sem o aumento do padding e margin. */
+    box-sizing: border-box;
+
+
+        /* Overflow
+          especifica quando o conteúdo de um elemento de nível de bloco 
+          deve ser cortado, exibido com barras de rolagem ou se transborda do elemento.*/
+
+    /* O conteúdo é cortado e nenhuma barra de rolagem é exibida.
+        
+        overflow: hidden; */
+
+    /* O conteúdo é acessível através de barras de rolagem que são 
+    exibidas mesmo que o conteúdo não precise. Isso evita o problema 
+    de barras de rolagem aparecendo e desaparecendo quando o conteúdo é dinâmico. 
+        
+        overflow: scroll; */
+
+    /* Vai definir tudo automaticamente. */
+        overflow: auto;
+
+
+    /*Valor padrão. O conteúdo não é cortado e pode ser renderizado
+     para fora da caixa de conteúdo. 
+    
+         overflow: visible; */
+}

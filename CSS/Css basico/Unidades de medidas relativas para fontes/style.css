@@ -1,0 +1,28 @@
+.container{ 
+
+   font-size: 15px;
+
+}
+
+/* O exemplo 1 e 2 estao dentro da DIV Container */
+.exemplo1{
+
+    font-size: 2em;
+
+}
+
+.exemplo2{
+
+
+}
+
+.exemplo3{
+
+    
+    
+}
+
+html{
+
+    font-size: 20px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisao 3</title>
+</head>
+<body>
+    <h1>Revisao 3</h1>
+
+    <h2>Imagens Flexiveis</h2>
+
+    <!--A tag 'picture' serve para concentrar varios tamanhos de imagem, ja a tag 'source' vai definir as informacoes da imagem.-->
+    <!--Voce vai utilizar a tag 'source:media:type'-->
+    <!--OBS: sempre e bom comecar fazer do maior para o menor, pois pode da algum erro no caminho.-->
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/galaxia-P.png" type="image/png">
+        <source media="(max-width:1080px )" srcset="imagens/galaxia-m.png" type="image/png">
+        <img src="imagens/galaxia-G.png" alt="Imagem flexivel">
+    </picture>
+    <!--O parametro 'media' vai definir o tamanho da imagem.-->
+    <!--O parametro 'srcset' e para colocar o nome do arquivo.-->
+    <!--O parametro 'type' vai ser tipo de arquivo utilizado.-->
+
+    <h2>Audios</h2>
+
+    <audio src="media/(FREE) Lo-fi Type Beat - I Need a Girl.mp3" controls></audio>
+
+    <h2>Audio com source</h2>
+    
+    <Audio preload="metadata" controls>
+        <source src="media/(FREE) Lo-fi Type Beat - I Need a Girl.mp3" type="audio/mpeg">
+    </Audio>
+
+    <h2>Videos</h2>
+
+    <video src="media/dizeres.mp4" preload="metadata" controls width="400px"></video>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+.verde{
+    height: 100px;
+    /* background gradiente serve para fazer um degrade, 
+    ou uniao das cores */
+    background: linear-gradient(red,blue,green);
+
+}
+
+.teste1{
+    /* nessa classe foi utilizado o 'deg' 
+    que server para definir os graus das cores. */
+    height: 100px;
+    background: linear-gradient(100deg,blue, orange, red);
+}
+
+.teste2{
+    /* Nessa classe foi utilizado 'to' para definir a diferecao,
+    Os valores possíveis são left ou right para indicar o lado esquerdo ou direito 
+    e top ou bottom para representar o lado superior ou inferior do elemento; */
+    height: 100px;
+    background: linear-gradient(to top,yellow,purple,green);
+}
+
+.teste3{
+    /* Nessa classe foi utilizada a porcentagem apos a cor para definir o quando ela vai ocupar no background. */
+    height: 100px;
+    background: linear-gradient(red 70%, black);
+}
+
+.ultimo {
+    height: 120px;
+  /* Nessa classe a porcetagem isolada define 
+  onde quer que comce a transicao.  */
+    background: linear-gradient(to right,blue, 20%, orange);
+
+}

@@ -1,0 +1,36 @@
+div {
+    /* Largura */
+    width: 500px;
+    /* Altura */
+    height: 300px;
+    /* Cor de fundo */
+    background-color: rgb(240, 100, 0);
+    /* para adicionar uma imagem de fundo */
+    background-image: url(imagens/abstract-background-in-soft-tones-d0d41c.png);
+    /* Vai definir o tmanho da imagem do fundo */
+    background-size: cover;
+    /* Para imagem nao se repetir, caso ela for menor. */
+    background-repeat: initial;
+    /* Vai definir qual posicao a imagem vai ficar*/
+    background-position: 0;
+
+    /* Voce pode colocar to o background em uma linha.
+        NAO ESQUECA DISSO */
+
+    
+}
+
+p {
+    background-color: aquamarine;
+    background-image: url(imagens/fundo-fotografico-em-tecido-textura-cinza-2-20x1-50-decoracao.jpg);
+    color:rgb(0, 0, 0);
+    width: 400px;
+    
+    /* Define se a imagem fica fixa, ou rola com o resto da pagina. */
+    background-attachment: fixed;
+    
+    background-size: contain;
+   
+}
+
+

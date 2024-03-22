@@ -1,0 +1,90 @@
+
+/* Unidades de medidas absolutas(fixas) */
+.div1{
+    margin-bottom: 80px;
+}
+
+
+/* Unidades de medidas relativas (referencia) */
+
+/* Temos as unidades de medidas 'vh'e 'vw'. Elas sao as unidades
+    viewports vai se adaptar com o tamanho do navegador. */
+.ref1{
+    width: 40vw;
+    height: 40vh;
+    background-color: red;
+    margin-bottom: 50px;
+}
+
+.ref1 img{
+    width: 50%;
+}
+
+/* Unidade de medidas relativas para fontes */
+
+.fott{
+    font-size: 18px ;
+    margin-bottom: 50px;
+
+}
+
+.para5{
+    /* Essa unidade de medica vai mutiplicar o valor do elemento pai,
+    se caso tiver atribuido nenhum valor ao elemento pai, ele vai
+    multiplicar pelo valor padrao da pagina que e 16px. */
+    font-size: 2em;
+}
+.para6{
+    /* Vai alterar a fonte de acordo com o elemento raiz. Ex: O HTML */
+    font-size: 2rem;
+}
+
+/* Ajuste de texto */
+
+.ff1{
+    
+    font-size: 18px;
+    
+    /* Vai configurar a capitalizacao do texto. Colocando todas letras maiusculas ou minusculas. */
+    text-transform:capitalize;
+
+    /* Vai tracar linhas no texto */
+    text-decoration: underline ;
+
+    /* Vai ajustar o texto */
+    text-align: justify ;
+
+    /* Vai configurar o espacamento das letras */
+    letter-spacing: 0px ;
+
+    /* Vai configurar o espacamento das palavras */
+    word-spacing: 5px ;
+
+    /* Vai configurar o espamento entre as linhas */
+    line-height: 25px ;
+
+    /* Vai indentar um espaço no começo de uma linha escrita ou de um paragrafo  */
+    text-indent: 50px ;
+
+    /* Vai colocar sombra no texto. */
+    text-shadow: 6px 7px 10px red;
+}
+
+.ft1{
+    /* Tamanho da fonte */
+    font-size: 21px ;
+
+    /* tipo de fonte */
+    font-family: monospace ;
+
+    /* Vai ser o peso da fonte, ou encorpamento */
+    /* vai ser de 0 a 900 */
+    font-weight: 600;
+
+    /* Vai ser o estilo da fonte */
+    font-style: italic;
+    
+}
+
+
+

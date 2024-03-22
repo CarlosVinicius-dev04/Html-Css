@@ -1,0 +1,83 @@
+/* Revisao 1 */
+
+.body1{
+    background-image: url(image/fundo\ mario.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.mario{
+    width: 200px;
+    height: 200px;
+    background-image: url(image/MarioNSMBUDeluxe.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    
+}
+
+.yoshi{
+    width: 200px;
+    height: 200px;
+    background-image: url(image/Yoshi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.texto-mario{
+    width: 400px;
+    height: 400px;
+    background-image: url(image/Super-Mario-Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: greenyellow;    
+}
+
+
+/* revisao 2 */
+
+.backgrad1{
+    height: 300px;
+    background: linear-gradient( to right bottom,red,blue);
+
+}
+
+.backgrad2{
+    height: 300px;
+    background: linear-gradient(90deg,yellow,green);
+}
+
+.backgrad3{
+    height: 300px;
+    background: linear-gradient(orange 70%,brown);
+
+}
+
+.backgrad4{
+    height: 300px;
+    background: linear-gradient(to left,#8A2BE2,40%,gold);
+}
+
+/* Revisao cores */
+
+.cor1{
+    background-color: aqua;
+}
+
+.cor2{
+    background-color: #8A2BE2 ;
+
+}
+
+.cor3{
+    background-color: rgb(0,139,139);
+}
+
+.cor4{
+    background-color: rgba(255, 20, 147, 0.5);
+}

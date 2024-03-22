@@ -1,0 +1,18 @@
+.card{
+    background-color: #ccc;
+    width: 300px;
+    height: 300px;
+    /* O overflow vai cortar o texto e vai colocar em um box com scroll.
+       Temos os valores: hidden, auto, scroll e viseble. */
+    overflow: auto ;
+    
+    /* Tambem podemos usar o verflow x e y para escolher o scroll
+        na lateral ou na vertical. 
+       
+        overflow-y: auto;
+        overflow-x: hidden; */  
+}
+
+.lorem{
+    font-size: 20px;
+}

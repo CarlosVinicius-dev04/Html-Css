@@ -1,0 +1,24 @@
+
+        /* Unidades de medidas absolutas(fixas). */
+
+.img1{
+    width: 450px;
+}
+
+        /* Unidades de medidas relativas(referencia). */
+
+#teste{
+    background-color: blue;
+    width: 800px;
+    height: 400px;
+}
+    /* Aqui estou usando % */
+.img2{
+    width: 50%;
+}
+    /* Aqui estou usando o VW e VH. */
+.view{
+    background-color: red;
+    width: 50vw;
+    height: 50vh;
+}

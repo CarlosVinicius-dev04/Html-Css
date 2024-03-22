@@ -1,0 +1,76 @@
+.lista-1{
+    ul{
+        list-style: square;
+        list-style-position: inside;
+        background-color: rgb(0, 129, 250);
+        padding: 20px;
+        border-radius: 5px;
+        width: 400px;
+        
+    }
+
+    li{
+        
+        background-color: #fa9702 ;
+        padding: 5px;
+        margin: 10px;
+        border-radius: 8px;
+    }
+}
+
+.lista-2{
+    ol{
+        list-style: square;
+        background-color: #4682B4;
+        width: 200px;
+        padding: 25px;
+        margin-bottom: 70px;
+        border-radius: 5px;
+    }
+
+    li{
+        background-color: #ffff;
+        color: black;
+        margin: 12px;
+        padding: 7px;
+        border-radius: 5px;
+        font-family: monospace;
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
+
+.lista-3{
+    
+    li{
+        background-color: #ffff;
+        padding: 7px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        margin-left: 0;
+        padding-left: 2px;
+        font-family: monospace;
+        font-size: 17px;
+        font-weight: 500;
+        
+    }
+}
+
+.ulistp{
+    background-color: orange;
+    padding: 25px;
+    border-radius: 6px;
+    margin-right: 30px;
+    width: 600px;
+    margin: 0;
+}
+
+.topicos1{
+    list-style-image: url(img/pudim\ real.png);
+    
+    
+}
+
+.topicos2{
+    list-style-image: url(img/brigadeiro\ real.png);
+}
