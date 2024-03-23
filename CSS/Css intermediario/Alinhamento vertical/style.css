@@ -31,8 +31,27 @@
     /* Obs: o valor do translateY começa de cima para baixo. Com valor
     positivo(+) ele ira para baixo, e com valor negativo(-) ele vai para cima.*/
     /* O valor de 50% é referente ao conteúdo da div */
-    transform: translateY(-50%);
-
-
+    transform: translate(-50%);
 
 }
+
+/* Flex-box */
+
+/* Sempre vai ser usado no elemento pai. */
+.quadrado{
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.c3{
+    background-color: palevioletred;
+    
+}
+
