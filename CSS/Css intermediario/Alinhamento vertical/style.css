@@ -1,0 +1,38 @@
+.card{
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+/* Modo 1 de alinhamento Vertical */
+.c1{
+    background-color: gray;
+    
+    /* O line-height uma forma de centralizar um elemento na vertical. */
+    line-height: 200px;
+}
+
+/* Modo 2 de alinhamento vertical */
+.c2{
+    background-color: rgba(165, 42, 42, 0.644);
+    /* Outra forma é com o position absolute, mas não esqueça que para o position absolute
+    funcionar o elemento pai não pode esta com position static. */
+    position: absolute;
+    /* Esse valor de 50% é referente ao elemento pai do elemento */
+    top: 50%;
+    left: 50%;
+
+    /* Para complementar o alinhamneto vamos utilizar a propriedade 
+    transfom: translate. */
+    /* Obs1 */
+    /* Obs: o valor do translateY começa de cima para baixo. Com valor
+    positivo(+) ele ira para baixo, e com valor negativo(-) ele vai para cima.*/
+    /* O valor de 50% é referente ao conteúdo da div */
+    transform: translateY(-50%);
+
+
+
+}
