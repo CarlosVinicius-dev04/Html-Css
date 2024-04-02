@@ -1,9 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
 .header{
-    background-color: #676cb5;
+    background-color: blueviolet;
     height: 20px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 18px;
+    font-size: 18px;
+    color: white;
+    border-radius: 6px;
+
+}
+
+.menu{
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
     
 }
 
 .logo{
-    
+    float: left;
+
 }
+
