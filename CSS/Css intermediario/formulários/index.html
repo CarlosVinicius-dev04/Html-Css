@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Tag de formulário -->
+        <!-- Tipos de method
+        Get: -->
+        <form action="/cadastro" method="get"> 
+            
+            <div class="email">
+                <!-- é um prefixo para nomear um tipo de input.-->
+                <label for="idemail">E-mail:</label>
+                
+                <!-- onde vai entrar o texto -->
+                <input type="text" id="idemail" name="idemail">
+                
+                <!-- Esse é o botão, o campo de envio -->
+                <input type="submit" name="enviar">
+            </div>
+
+            <div class="password">
+                <label for="idpassword">Senha:</label>
+                
+                <input type="password" id="password" name="idpassword">
+            </div>
+
+            <div class="date">
+                <label for="iddate">Data:</label>
+                <input type="date" id="iddate" name="iddate">
+            </div>
+
+            <div class="file">
+
+                <label for="idfile">Arquivo</label>
+                <input type="file" id="idfile" name="idfile">
+
+            </div>
+
+            <div class="check">
+                <label for="idcheck1">Check 1</label>
+                <input type="checkbox" id="idcheck1" name="idcheck" value="idcheck1">
+
+                <label for="idcheck2">Check 2</label>
+                <input type="checkbox" id="idcheck2" name="idcheck" value="idcheck2">
+
+                <label for="idcheck3">Check 3</label>
+                <input type="checkbox" id="idcheck3" name="idcheck" value="idcheck3">
+            </div>
+
+            <div class="radio">
+                <label for="idradio1">Radio 1</label>
+                <input type="radio" id="idradio1" name="idradio" value="radio1">
+
+                <label for="idradio2">Radio 2</label>
+                <input type="radio" id="idradio2" name="idradio" value="radio2">
+                <!-- OBS: o atributo 'name' se tiver em todos com o mesmo valor, eu posso marcar
+                somente uma opção. Caso, eu esteja sem o atributo name eu posso marcar mais de uma opção. -->
+            </div>
+            
+            <div class="caixadetexto">
+                <label for="idboxtext">Caixa de Texto:</label>
+                
+                <!-- 'textarea' não é um input, mas um campo de texto para formulários -->
+                <!-- O tamanho de uma área de texto é especificado pelos atributos 
+                    'cols' representa as colunas, o rows representa as linhas. -->
+                <textarea name="idboxtext" id="idboxtext" cols="30" rows="5"></textarea>
+                <!-- Esse input vai adicionar um button 
+                    o atributo 'onclick' com o valor 'alert' vai adicionar um alarme em JS. -->
+                <input type="button" onclick="alert('oi')" value="button">
+                <!-- esse input 'reset' vai limpar todas as informações preenchidas -->
+                <input type="reset" value="limpar">
+            </div>
+
+            <div class="selecao">
+                <!-- Select é elemento usado para criar uma lista suspensa. -->
+                <!-- O atributo id é necessário para associar a lista suspensa a um rótulo. -->
+                <!-- As tags <option> dentro do <select>elemento definem as opções disponíveis na lista suspensa. -->
+                <!-- Dica: Sempre adicione a tag <label> para melhores práticas de acessibilidade! -->
+                <select name="selecao" id="idselecao">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                </select>
+            </div>
+
+
+        </form>
+</body>
+</html>
